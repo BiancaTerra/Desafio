@@ -1,0 +1,23 @@
+public class Fibonacci {
+
+    static long fibo(int n) {
+        if (n < 2) {
+            return n;
+        } else {
+            return fibo(n - 1) + fibo(n - 2);
+        }
+    }
+
+    public static void main(String[] args) {
+        // Teste para ver se 30 pertence a sequencia.
+    x = 30
+	for (int i = 0; i++) {
+        while (i<=30){
+            Fibonacci.fibo(i)
+        }
+        if (i != x){print(x + "Não pertence a sequencia de Fibonacci")} else {print(x + "Pertence a sequencia de Fibonacci")}
+    }
+
+    }
+
+}
